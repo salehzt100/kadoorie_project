@@ -26,3 +26,42 @@ This is a RESTful API backend built with **Laravel 12** to manage university gra
 
 The following routes are publicly accessible:
 
+POST /api/login GET /api/projects GET /api/projects/{id} GET /api/students GET /api/students/{id} GET /api/supervisors GET /api/supervisors/{id} GET /api/categories GET /api/categories/{id} GET /api/faculty-departments GET /api/faculty-departments/{id}
+
+
+📁 Environment Configuration
+
+Edit your .env file with the following values:
+
+🔧 App Settings
+
+```env
+APP_NAME=KadooriProject
+APP_ENV=production
+APP_DEBUG=true
+APP_URL=http://your-domain.com
+```
+
+☁️ Cloudinary Settings
+
+```env
+CLOUDINARY_URL=cloudinary://892442654887776:pos909VjrxaTU-HIe0uUuUWCTI0@dibxzbef5
+CLOUDINARY_CLOUD_NAME=dibxzbef5
+CLOUDINARY_API_KEY=892442654887776
+CLOUDINARY_API_SECRET=pos909VjrxaTU-HIe0uUuUWCTI0
+```
+These credentials are used for uploading and managing files on Cloudinary.
+
+
+
+📦 Installation Steps
+
+```env
+git clone https://github.com/your-username/kadoori-project-api.git
+cd kadoori-project-api
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --seed
+php artisan serve
+```
