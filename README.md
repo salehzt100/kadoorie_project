@@ -39,6 +39,8 @@ GET /api/faculty-departments
 GET /api/faculty-departments/{id}
 
 
+
+
 📁 Environment Configuration
 
 Edit your .env file with the following values:
