@@ -57,8 +57,8 @@ These credentials are used for uploading and managing files on Cloudinary.
 📦 Installation Steps
 
 ```env
-git clone https://github.com/your-username/kadoori-project-api.git
-cd kadoori-project-api
+git clone https://github.com/salehzt100/kadoorie_project.git
+cd kadoorie_project
 composer install
 cp .env.example .env
 php artisan key:generate
