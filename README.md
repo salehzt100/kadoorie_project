@@ -26,17 +26,20 @@ This is a RESTful API backend built with **Laravel 12** to manage university gra
 
 The following routes are publicly accessible:
 
-POST /api/login
-GET /api/projects
-GET /api/projects/{id} 
-GET /api/students 
-GET /api/students/{id} 
-GET /api/supervisors 
-GET /api/supervisors/{id} 
-GET /api/categories 
-GET /api/categories/{id} 
-GET /api/faculty-departments 
-GET /api/faculty-departments/{id}
+- POST /api/login
+- GET /api/projects
+- GET /api/projects/{id}
+- GET /api/students
+- GET /api/students/{id}
+- GET /api/supervisors
+- GET /api/supervisors/{id}
+- GET /api/categories
+- GET /api/categories/{id}
+- GET /api/faculty-departments
+- GET /api/faculty-departments/{id}
+
+
+
 
 
 
